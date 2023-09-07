@@ -1,7 +1,7 @@
 import React from "react";
 import {useState} from "react";
 
-function Details({homeTown,mbti,hobby,myPuppy,favorite}){ 
+function Details({homeTown,hobby}){
 
   return(
     <div className="">
@@ -17,12 +17,7 @@ function Details({homeTown,mbti,hobby,myPuppy,favorite}){
           
        </div>
        <br/>
-       <br/><br/>
-       <br/><br/>
-       <br/><br/>
-       <br/><br/>
-       <br/><br/>
-       <br/><br/>
+
     </div>
   );
 }

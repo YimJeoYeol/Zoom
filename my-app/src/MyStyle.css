@@ -1,11 +1,30 @@
 /*문서 전반 style*/
 .mainBox{
+    /* Single keyword values */
+white-space: normal;
+white-space: nowrap;
+white-space: pre;
+white-space: pre-wrap;
+white-space: pre-line;
+white-space: break-spaces;
+
+/* white-space-collapse and text-wrap shorthand values */
+white-space: collapse balance;
+white-space: preserve nowrap;
+
+/* Global values */
+white-space: inherit;
+white-space: initial;
+white-space: revert;
+white-space: revert-layer;
+white-space: unset;
   text-align: center;
   font-family: 'Dongle', sans-serif;
   margin-left: auto;
   margin-right: auto;
   border: 4px double rgba(177, 146, 251, 0.811);
   background-color: rgba(238, 221, 253, 0.377);
+  
 }
 
 /*메인 타이틀 style*/
@@ -19,17 +38,11 @@
 }
 
 /*Main info box*/
-.Profil{
+.wrap1{
   display: inline-block;
   margin-left: 50px;
   white-space: pre-wrap;
 }
-.University{
-  display: inline-block;
-  margin-left: 50px;
-  white-space: pre-wrap;
-}
-
 
 /*h3태그 이용하는 tytles 공통 style*/
 h3{
@@ -57,19 +70,7 @@ h3{
   line-height: 10%;
   border: 3px dashed rgba(221, 193, 246, 0.848);
   border-radius: 20px;
-  width:450px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  color:rgb(182, 99, 255);
-}
-.firstInfo{
-  font-weight:bold;
-  font-size: 35px;
-  line-height: 10%;
-  border: 3px dashed rgba(221, 193, 246, 0.848);
-  border-radius: 20px;
-  width:550px;
+  width:650px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
