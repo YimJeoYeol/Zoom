@@ -12,6 +12,7 @@ function Career(career){
           <p>WorkContent1 : {career.workcontent1}</p>
           <p>WorkContent2 : {career.workcontent2}</p>
         </div>
+    <br/><br/>
         <div className="img">
           <img src="image/일.jpg" className="imgStyle" alt="일" width="250" height="250"></img>
           <div className="txt">
@@ -20,9 +21,7 @@ function Career(career){
         <br />
        <br/><br/>
        <br/><br/>
-       <br/><br/>
-       <br/><br/>
-       <br/><br/>
+
     </div>
    );
 }

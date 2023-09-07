@@ -28,16 +28,10 @@ function Profil(props){
         <p>Birth : {props.birth}</p>
         <p>Email : {props.email}</p>
         <p>Part : {props.part}</p>
-        <p>Git : {props.gitID}</p>
+        <p>GitHub : {props.githubID}</p>
       </div>
+      <br/><br/>
       <div className="yimjeaImg"><div className="likeText" id="movingHeart"></div></div>
-      <br/><br/>
-      <br/><br/>
-      <br/><br/>
-      <br/><br/>
-      <br/><br/>
-
-
     </div>
   );
 }

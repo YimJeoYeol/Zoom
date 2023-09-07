@@ -4,6 +4,7 @@ import Profil from './component/Profil';
 import Details from './component/Details';
 import Career from './component/Career';
 import Test2 from './Test2';
+import Graduation from './component/Graduation';
 
 import './MyStyle.css';
 
@@ -13,7 +14,8 @@ function App() {
    <div className ="mainBox">
     <Title mainTitle="**임재열!! 소개합니다~~" />
     <Profil subTitle1="Main Info." name="임재열" birth="1993.07.26" 
-     email="imjy2@naver.com" part="Web(Back-End)" gitID="@yimje" instaID="@imjy99" />
+     email="imjy2@naver.com" part="Web(Back-End)" githubID="@yimje" instaID="@imjy99" />
+     <Graduation nameuniversity="대구대학교" thetimeofgraduation="2019년 02월 13일"/>
     <Details homeTown="대구광역시 달구벌대로"  hobby="걷기" />
     <Career Corporate name="해솔솔루션" careerperiod="2021.09.01 ~ 2022.12.31(1년 4개월)" 
            work ="포스코ICT(2021.10~2021.12.31 산업가스판매시스템 개발),  KT고객지식관리, 카드관리(2022.02.23~2022.12.31)"
