@@ -1,0 +1,339 @@
+/*문서 전반 style*/
+.mainBox{
+    /* Single keyword values */
+white-space: normal;
+white-space: nowrap;
+white-space: pre;
+white-space: pre-wrap;
+white-space: pre-line;
+white-space: break-spaces;
+
+/* white-space-collapse and text-wrap shorthand values */
+white-space: collapse balance;
+white-space: preserve nowrap;
+
+/* Global values */
+white-space: inherit;
+white-space: initial;
+white-space: revert;
+white-space: revert-layer;
+white-space: unset;
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px double rgba(177, 146, 251, 0.811);
+  background-color: rgba(238, 221, 253, 0.377);
+  
+}
+
+/*메인 타이틀 style*/
+.mainTitle{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 70px;
+  color:rgb(113, 115, 255);
+  margin: 0;
+  border-bottom: 4px double rgb(33, 160, 219);
+}
+
+/*Main info box*/
+.wrap1{
+  display: inline-block;
+  margin-left: 50px;
+  white-space: pre-wrap;
+}
+
+/*h3태그 이용하는 tytles 공통 style*/
+h3{
+  font-style: italic;
+  border-top: 2px solid rgba(169, 77, 255, 0.702);
+  border-bottom: 2px solid rgba(169, 77, 255, 0.702);
+  width: 400px;
+  height: 65px;
+  color:rgb(26, 255, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Main info title text*/
+#h3-1{
+  font-size: 55px; 
+  font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+/*maininfo box 내부 style*/
+.mainInfo{
+  font-weight:bold;
+  font-size: 35px;
+  line-height: 10%;
+  border: 3px dashed rgba(221, 193, 246, 0.848);
+  border-radius: 20px;
+  width:650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color:rgb(182, 99, 255);
+}
+.secondInfo{
+  margin-left: auto;
+  margin-right: auto;
+  white-space: pre-line;
+  width:900px;
+  border: 3px dashed rgba(221, 193, 246, 0.848);
+  border-radius: 20px;
+  font-weight:bold;
+  font-size: 35px;
+  color:rgb(1, 10, 124);
+}
+.Test2{
+  height: 600px;
+  width:900px;
+}
+
+/*내 사진 마우스 오버*/
+.yimjeaImg{
+  width: 170px;
+  height: 235px;
+  border-radius: 25px; 
+  margin: 0px auto;
+  background: url(/public/image/임재열.jpg) no-repeat;
+  background-size: contain;
+}
+.likeText{
+  background: #fffbfb;
+  border-radius: 25px;
+  height: 100%;
+  opacity:0;
+}
+.yimjeaImg:hover .likeText{
+  cursor: pointer;
+  opacity: 0.6;
+  color: #2d2929;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 230px;
+}
+
+/*ToYimjea tytle style*/
+#h3-3{
+  font-size: 30px;
+  width: 280px;
+  height: 45px;
+  border-top: 2px dashed rgba(169, 77, 255, 0.702);
+  border-bottom: 2px dashed rgba(169, 77, 255, 0.702);
+}
+
+/*ToYimjea textarea style*/
+#sendTxt{
+  background-color: rgb(243, 219, 255);
+  border: 2px solid rgb(198, 159, 250);
+  color:rgb(183, 25, 251);
+  font-size: 20px;
+  width: 250px;
+  height: 60px;
+  font-family: 'Dongle', sans-serif;
+  resize: none;
+}
+#sendTxt:focus{
+  outline-color:rgb(190, 40, 255);
+}
+
+/*공통 p태그 style*/
+.pTag{
+  margin-top: 0;
+  font-size: 23px;
+  color:rgb(175, 105, 255);
+  margin-bottom: 0;
+}
+
+/*입력 text대로 나타내는 출력 text style*/
+#pResult{
+  font-size: 23px;
+  color:rgb(255, 124, 196);
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  border: 2px dotted rgb(255, 124, 196);
+}
+
+/*textarea 내용 초기화 버튼 style*/
+#resetBtn{
+  font-size: 20px; 
+  background-color: rgba(0,0,0,0); 
+  color: rgb(168, 54, 255); 
+  border: 2px solid rgb(215, 142, 255); 
+  border-radius: 4px;
+  padding-bottom: 0px;
+  height: 30px;
+  font-family: 'Dongle', sans-serif;
+}
+/*버튼 클릭 시 테두리 두께 얇게 해 클릭 효과 주기*/
+#resetBtn:active{
+  border:1.5px solid rgb(215, 142, 255);
+  box-shadow: inset 0px 0px 3px rgb(192, 49, 239);
+}
+
+/*sub info box*/
+.wrap2{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+/*subinfo title style*/
+#h3-2{
+  font-size: 50px; 
+  font-weight: bolder; 
+  margin-bottom: 25px; 
+}
+
+/*sub info 내부 style*/
+.subInfo{
+  font-weight:bold;
+  font-size: 35px;
+  line-height: 10%;
+  border: 3px dashed rgba(221, 193, 246, 0.848);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width:650px;
+  color:rgb(182, 99, 255);
+  margin-bottom: 20px;
+}
+
+/*subinfo에 이용된 이미지들 공통 style*/
+.imgStyle{
+  border-radius: 200px; 
+  border: 4px outset rgb(205, 178, 249);
+}
+
+/*이미지 -> 텍스트 마우스 오버*/
+.imgs{
+  position: relative;
+  margin: auto;
+  margin-right: 10px;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+}
+.imgs .txt{
+  color: #fff;
+  position: absolute; left: 4px; top: 4px;
+  background: rgba(0,0,0,0.5);
+  width:100%;
+  height: 100%;
+  border-radius: 200px;
+  padding: 15px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.35s ease-in-out;
+}
+.imgs:hover .txt{
+  opacity: 1;
+}
+.imgs .txt p{
+  font-size: 25px;
+  line-height: 240px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+/*이미지 -> 이미지 마우스 오버*/
+.two-imgs{
+  position:relative;
+  margin: 0px auto;
+  margin-right: 10px;
+  width: 250px;
+  display: inline-block;
+}
+.puppy2{
+  position: absolute;
+  top:0px;
+  left:0px;
+  display: none;
+}
+.two-imgs:hover .puppy2{
+  display: block;
+}
+.winkPanda{
+  position: absolute;
+  top:0px;
+  left:0px;
+  display: none;
+}
+.two-imgs:hover .winkPanda{
+  display: block;
+}
+
+/*quiz 영역 style*/
+.quiz{
+  border: 2.5px dashed rgba(141, 79, 255, 0.702);
+  border-radius: 30px;
+  width:600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*quiz영역 tytle style*/
+#h3-4{
+  font-size: 35px;
+  width: 250px;
+  height: 45px;
+  margin-bottom: 0;
+  color:rgb(195, 67, 246);
+  border-top: 2px solid rgba(141, 79, 255, 0.702);
+  border-bottom: 2px solid rgba(141, 79, 255, 0.702);
+  margin-top: 10px;
+  padding: 0;
+}
+
+/*quiz 질문 텍스트 style*/
+#question{
+  width: 550px;
+  font-size:24px;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  color:rgb(168, 100, 231);
+  border-bottom: 2px solid rgb(168, 100, 231);
+  margin-bottom: 0;
+}
+
+/*quiz 힌트 텍스트 style*/
+#questionHint{
+  margin-top: 0;
+  font-size: 20px;
+  color:rgb(226, 167, 251);
+}
+
+/*퀴즈 문항 Button style*/
+.chooseBtns{
+  font-size: 22px; 
+  background-color: rgb(237, 216, 255); 
+  color: rgb(154, 31, 249); 
+  border: none;
+  border-bottom: 2px solid rgb(213, 134, 255);  
+  padding-bottom: 0px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  margin-left: 5px;
+}
+.chooseBtns:active{
+  border-bottom:1px solid rgb(213, 134, 255);
+  box-shadow: inset 0px 0px 2px rgb(192, 49, 239);
+}
+
+/*퀴즈 선택 답 나오는 텍스트 style*/
+#pAnswer{
+  font-size: 25px;
+  color:rgb(255, 124, 196);
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dotted rgb(255, 124, 196);
+  border-radius: 10px;
+}

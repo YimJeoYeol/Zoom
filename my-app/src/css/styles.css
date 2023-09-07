@@ -1,0 +1,27 @@
+.layoutBox {
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    box-sizing: content-box;
+    z-index: 1;
+  }
+  
+  .box {
+    position: relative;
+    box-sizing: content-box;
+    height: 100%;
+    width: 100%;
+  }
+  .InnerBox {
+    position: absolute;
+    outline: 3px solid black;
+    height: 50%;
+    width: 50%;
+  }
+  
