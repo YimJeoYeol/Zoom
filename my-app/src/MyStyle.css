@@ -1,23 +1,5 @@
 /*문서 전반 style*/
 .mainBox{
-    /* Single keyword values */
-white-space: normal;
-white-space: nowrap;
-white-space: pre;
-white-space: pre-wrap;
-white-space: pre-line;
-white-space: break-spaces;
-
-/* white-space-collapse and text-wrap shorthand values */
-white-space: collapse balance;
-white-space: preserve nowrap;
-
-/* Global values */
-white-space: inherit;
-white-space: initial;
-white-space: revert;
-white-space: revert-layer;
-white-space: unset;
   text-align: center;
   font-family: 'Dongle', sans-serif;
   margin-left: auto;
@@ -26,6 +8,7 @@ white-space: unset;
   background-color: rgba(238, 221, 253, 0.377);
   
 }
+
 
 /*메인 타이틀 style*/
 .mainTitle{
@@ -38,11 +21,12 @@ white-space: unset;
 }
 
 /*Main info box*/
-.wrap1{
+.Profil{
   display: inline-block;
   margin-left: 50px;
   white-space: pre-wrap;
 }
+
 
 /*h3태그 이용하는 tytles 공통 style*/
 h3{
@@ -58,19 +42,25 @@ h3{
 
 /*Main info title text*/
 #h3-1{
-  font-size: 55px; 
+  font-size: 45px;
   font-weight: bolder; 
   margin-bottom: 20px;
 }
+#h3-3{
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
 
 /*maininfo box 내부 style*/
 .mainInfo{
   font-weight:bold;
-  font-size: 35px;
+  font-size: 25px;
   line-height: 10%;
   border: 3px dashed rgba(221, 193, 246, 0.848);
   border-radius: 20px;
-  width:650px;
+  width:350px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -84,7 +74,17 @@ h3{
   border: 3px dashed rgba(221, 193, 246, 0.848);
   border-radius: 20px;
   font-weight:bold;
-  font-size: 35px;
+  font-size: 25px;
+  color:rgb(1, 10, 124);
+}
+.firstInfo{
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  border: 3px dashed rgba(221, 193, 246, 0.848);
+  border-radius: 20px;
+  font-weight:bold;
+  font-size: 25px;
   color:rgb(1, 10, 124);
 }
 .Test2{
@@ -115,31 +115,6 @@ h3{
   font-weight: 700;
   line-height: 230px;
 }
-
-/*ToYimjea tytle style*/
-#h3-3{
-  font-size: 30px;
-  width: 280px;
-  height: 45px;
-  border-top: 2px dashed rgba(169, 77, 255, 0.702);
-  border-bottom: 2px dashed rgba(169, 77, 255, 0.702);
-}
-
-/*ToYimjea textarea style*/
-#sendTxt{
-  background-color: rgb(243, 219, 255);
-  border: 2px solid rgb(198, 159, 250);
-  color:rgb(183, 25, 251);
-  font-size: 20px;
-  width: 250px;
-  height: 60px;
-  font-family: 'Dongle', sans-serif;
-  resize: none;
-}
-#sendTxt:focus{
-  outline-color:rgb(190, 40, 255);
-}
-
 /*공통 p태그 style*/
 .pTag{
   margin-top: 0;
@@ -176,15 +151,11 @@ h3{
   box-shadow: inset 0px 0px 3px rgb(192, 49, 239);
 }
 
-/*sub info box*/
-.wrap2{
-  display: inline-block;
-  margin-left: 30px;
-}
+
 
 /*subinfo title style*/
 #h3-2{
-  font-size: 50px; 
+  font-size: 45px;
   font-weight: bolder; 
   margin-bottom: 25px; 
 }
@@ -192,13 +163,13 @@ h3{
 /*sub info 내부 style*/
 .subInfo{
   font-weight:bold;
-  font-size: 35px;
+  font-size: 25px;
   line-height: 10%;
   border: 3px dashed rgba(221, 193, 246, 0.848);
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
-  width:650px;
+  width:450px;
   color:rgb(182, 99, 255);
   margin-bottom: 20px;
 }
@@ -249,91 +220,11 @@ h3{
   width: 250px;
   display: inline-block;
 }
-.puppy2{
-  position: absolute;
-  top:0px;
-  left:0px;
-  display: none;
-}
+
 .two-imgs:hover .puppy2{
   display: block;
 }
-.winkPanda{
-  position: absolute;
-  top:0px;
-  left:0px;
-  display: none;
-}
+
 .two-imgs:hover .winkPanda{
   display: block;
-}
-
-/*quiz 영역 style*/
-.quiz{
-  border: 2.5px dashed rgba(141, 79, 255, 0.702);
-  border-radius: 30px;
-  width:600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*quiz영역 tytle style*/
-#h3-4{
-  font-size: 35px;
-  width: 250px;
-  height: 45px;
-  margin-bottom: 0;
-  color:rgb(195, 67, 246);
-  border-top: 2px solid rgba(141, 79, 255, 0.702);
-  border-bottom: 2px solid rgba(141, 79, 255, 0.702);
-  margin-top: 10px;
-  padding: 0;
-}
-
-/*quiz 질문 텍스트 style*/
-#question{
-  width: 550px;
-  font-size:24px;
-  font-style: italic;
-  margin-left: auto;
-  margin-right: auto;
-  color:rgb(168, 100, 231);
-  border-bottom: 2px solid rgb(168, 100, 231);
-  margin-bottom: 0;
-}
-
-/*quiz 힌트 텍스트 style*/
-#questionHint{
-  margin-top: 0;
-  font-size: 20px;
-  color:rgb(226, 167, 251);
-}
-
-/*퀴즈 문항 Button style*/
-.chooseBtns{
-  font-size: 22px; 
-  background-color: rgb(237, 216, 255); 
-  color: rgb(154, 31, 249); 
-  border: none;
-  border-bottom: 2px solid rgb(213, 134, 255);  
-  padding-bottom: 0px;
-  height: 30px;
-  text-align: center;
-  font-family: 'Dongle', sans-serif;
-  margin-left: 5px;
-}
-.chooseBtns:active{
-  border-bottom:1px solid rgb(213, 134, 255);
-  box-shadow: inset 0px 0px 2px rgb(192, 49, 239);
-}
-
-/*퀴즈 선택 답 나오는 텍스트 style*/
-#pAnswer{
-  font-size: 25px;
-  color:rgb(255, 124, 196);
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px dotted rgb(255, 124, 196);
-  border-radius: 10px;
 }
