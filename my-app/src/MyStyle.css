@@ -1,12 +1,12 @@
 /*문서 전반 style*/
 .mainBox{
+
   text-align: center;
   font-family: 'Dongle', sans-serif;
   margin-left: auto;
   margin-right: auto;
   border: 4px double rgba(177, 146, 251, 0.811);
   background-color: rgba(238, 221, 253, 0.377);
-  
 }
 
 
@@ -65,6 +65,25 @@ h3{
   margin-right: auto;
   margin-bottom: 20px;
   color:rgb(182, 99, 255);
+}
+#button{
+  color: dodgerblue;
+  background: blanchedalmond;
+  padding: .375rem .75rem;
+  border: 1px solid teal;
+  borderRadius: 25rem;
+  fontSize: rem;
+  lineHeight: 1.5;
+}
+#yimjea{
+  font-size: 20px;
+  background-color: rgba(0,0,0,0);
+  color: rgb(168, 54, 255);
+  border: 2px solid rgb(215, 142, 255);
+  border-radius: 4px;
+  padding-bottom: 0px;
+  height: 30px;
+  font-family: 'Dongle', sans-serif;
 }
 .secondInfo{
   margin-left: auto;
@@ -134,22 +153,7 @@ h3{
   border: 2px dotted rgb(255, 124, 196);
 }
 
-/*textarea 내용 초기화 버튼 style*/
-#resetBtn{
-  font-size: 20px; 
-  background-color: rgba(0,0,0,0); 
-  color: rgb(168, 54, 255); 
-  border: 2px solid rgb(215, 142, 255); 
-  border-radius: 4px;
-  padding-bottom: 0px;
-  height: 30px;
-  font-family: 'Dongle', sans-serif;
-}
-/*버튼 클릭 시 테두리 두께 얇게 해 클릭 효과 주기*/
-#resetBtn:active{
-  border:1.5px solid rgb(215, 142, 255);
-  box-shadow: inset 0px 0px 3px rgb(192, 49, 239);
-}
+
 
 
 

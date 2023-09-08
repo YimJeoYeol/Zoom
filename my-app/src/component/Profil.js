@@ -13,8 +13,10 @@ function Profil(props){
     setText("");
   }
 
-  const [count,setCount] = useState(0);
 
+  const [count,setCount] = useState(0);
+  const url1 = "https://github.com/yimje/Zoom"
+  const url2 = "https://github.com/yimje/Book-Management-System"
   function counter(e){
     const txt = e.target.value;
     setCount(txt.length);
@@ -28,10 +30,15 @@ function Profil(props){
         <p>Birth : {props.birth}</p>
         <p>Email : {props.email}</p>
         <p>Part : {props.part}</p>
-        <p>GitHub : {props.githubID}</p>
+        <p>GitHub : {props.gitHubID}</p>
+        <button onClick={()=>{window.open(url1)}}>임재열의 깃허브이동하기 1</button><br/><br/><br/><br/>
+        <button onClick={()=>{window.open(url2)}}>임재열의 깃허브이동하기 2</button>
+        <br/><br/>
+        <br/><br/>
+        <br/><br/>
       </div>
       <br/><br/>
-      <div className="yimjeaImg"><div className="likeText" id="movingHeart"></div></div>
+      <div className="yimjeaImg"></div>
     </div>
   );
 }

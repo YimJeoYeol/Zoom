@@ -8,13 +8,13 @@ import Test2 from './Test2';
 
 import './MyStyle.css';
 
-
+const url = "https://github.com/yimje/Zoom"
 function App() {
   return (
    <div className ="mainBox">
     <Title mainTitle="**임재열!! 소개합니다~~" />
     <Profil subTitle1="Main Info." name="임재열" birth="1993.07.26" 
-     email="imjy2@naver.com" part="Web(Back-End)" gitID="@yimje" instaID="@imjy99" />
+     email="imjy2@naver.com" part="Web(Back-End)" gitHubID="@yimje"url = "https://github.com/yimje/Zoom"/>
     <Details homeTown="대구광역시 달구벌대로"  hobby="걷기" />
      <University university="대구대학교" department="건축공학과" graduation="2019년 2월 13일"/>
     <Career Corporate name="해솔솔루션" careerperiod="2021.09.01 ~ 2022.12.31(1년 4개월)" 
