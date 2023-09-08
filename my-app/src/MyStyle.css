@@ -1,3 +1,4 @@
+
 /*문서 전반 style*/
 .mainBox{
 
@@ -46,6 +47,11 @@ h3{
   font-weight: bolder; 
   margin-bottom: 20px;
 }
+#h3-2{
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
 #h3-3{
   font-size: 45px;
   font-weight: bolder;
@@ -66,6 +72,41 @@ h3{
   margin-bottom: 20px;
   color:rgb(182, 99, 255);
 }
+.firstInfo{
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  border: 3px dashed rgba(221, 193, 246, 0.848);
+  border-radius: 20px;
+  font-weight:bold;
+  font-size: 25px;
+  color:rgb(1, 10, 124);
+}
+.secondInfo{
+  margin-left: auto;
+  margin-right: auto;
+  white-space: pre-line;
+  width:900px;
+  border: 3px dashed rgba(221, 193, 246, 0.848);
+  border-radius: 20px;
+  font-weight:bold;
+  font-size: 25px;
+  color:rgb(1, 10, 124);
+}
+
+/*sub info 내부 style*/
+.subInfo{
+  font-weight:bold;
+  font-size: 25px;
+  line-height: 10%;
+  border: 3px dashed rgba(221, 193, 246, 0.848);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width:450px;
+  color:rgb(182, 99, 255);
+  margin-bottom: 20px;
+}
 #button{
   color: dodgerblue;
   background: blanchedalmond;
@@ -85,27 +126,8 @@ h3{
   height: 30px;
   font-family: 'Dongle', sans-serif;
 }
-.secondInfo{
-  margin-left: auto;
-  margin-right: auto;
-  white-space: pre-line;
-  width:900px;
-  border: 3px dashed rgba(221, 193, 246, 0.848);
-  border-radius: 20px;
-  font-weight:bold;
-  font-size: 25px;
-  color:rgb(1, 10, 124);
-}
-.firstInfo{
-  margin-left: auto;
-  margin-right: auto;
-  width:400px;
-  border: 3px dashed rgba(221, 193, 246, 0.848);
-  border-radius: 20px;
-  font-weight:bold;
-  font-size: 25px;
-  color:rgb(1, 10, 124);
-}
+
+
 .Test2{
   height: 600px;
   width:900px;
@@ -158,25 +180,7 @@ h3{
 
 
 /*subinfo title style*/
-#h3-2{
-  font-size: 45px;
-  font-weight: bolder; 
-  margin-bottom: 25px; 
-}
 
-/*sub info 내부 style*/
-.subInfo{
-  font-weight:bold;
-  font-size: 25px;
-  line-height: 10%;
-  border: 3px dashed rgba(221, 193, 246, 0.848);
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  width:450px;
-  color:rgb(182, 99, 255);
-  margin-bottom: 20px;
-}
 
 /*subinfo에 이용된 이미지들 공통 style*/
 .imgStyle{
